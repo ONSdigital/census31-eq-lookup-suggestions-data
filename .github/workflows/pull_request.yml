@@ -36,4 +36,4 @@ jobs:
         if: steps.cache-virtualenv.outputs.cache-hit != 'true'
         run: poetry install
       - name: Lint Python
-        run: make lint
+        run: make lint-python
