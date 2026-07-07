@@ -1,3 +1,11 @@
+lint-python:
+	poetry run flake8 --max-complexity 11 --max-line-length 120 --count
+	poetry run black --check .
+
+format-python:
+	poetry run isort .
+	poetry run black .
+
 .PHONY: megalint megalint-apply clean-megalint
 megalint:
 	docker run --platform linux/amd64 --rm \
