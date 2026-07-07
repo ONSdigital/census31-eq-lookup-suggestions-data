@@ -6,14 +6,14 @@ This repository contains TextField suggestion data source files used for version
 
 Source data files are provided by the business as single column csv files.
 
-| Dataset | Description |
-| ------- |-------|
-| countries-of-birth.csv | List of countries for country of birth questions |
-| ethnic-groups.csv | List of ethnic groups |
-| languages.csv | List of languages |
-| national-identities.csv | List of national identities |
-| passport-countries.csv | List of countries for passport questions |
-| religions.csv | List of religions |
+| Dataset                 | Description                                      |
+|-------------------------|--------------------------------------------------|
+| countries-of-birth.csv  | List of countries for country of birth questions |
+| ethnic-groups.csv       | List of ethnic groups                            |
+| languages.csv           | List of languages                                |
+| national-identities.csv | List of national identities                      |
+| passport-countries.csv  | List of countries for passport questions         |
+| religions.csv           | List of religions                                |
 
 These can be manually added/updated in this repository at `./source-data`
 
