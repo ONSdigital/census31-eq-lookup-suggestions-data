@@ -22,7 +22,6 @@ FLAVOR_SUGGESTIONS: false # Disables suggestions to use different MegaLinter fla
 
 DISABLE_LINTERS:
   - REPOSITORY_GRYPE # No container images in this repo; high runtime cost (49.9s)
-  - REPOSITORY_CHECKOV # Limited IaC footprint here; overlaps workflow security checks for much lower-value spend (11.24s)
   - REPOSITORY_TRIVY # Vulnerability coverage overlaps osv-scanner with much higher runtime (12.53s vs 1.04s)
   - REPOSITORY_TRIVY_SBOM # Redundant with trivy/syft SBOM generation and not used as a gating signal
   - REPOSITORY_TRUFFLEHOG # Overlaps with secretlint; secret scanning kept via faster baseline tools
