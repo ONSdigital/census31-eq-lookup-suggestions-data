@@ -55,13 +55,17 @@ make megalint-apply
 ```
 
 Python linting and formatting is done separately to run the linting for that run:
+
 ```shell
 make lint-python
 ```
+
 This will run flake8 and black over the python files.
 
 And for formatting:
+
 ```shell
 make format-python
 ```
+
 This will run black and isort over the python files.
